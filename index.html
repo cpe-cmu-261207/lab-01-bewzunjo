@@ -1,21 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
+  <body style="background-color: rgb(144, 150, 183)">
+    <!-- nav bar -->
+    <br />
 
-<body>
+    <div class="text-bg-info" align="center">
+      <a href="index.html " class="link-light">🏠Home</a>
+      <a href="Experience.html" class="link-light">Experience</a>
+      <a href="Contact.html" class="link-light">Contact</a>
+    </div>
 
+    <!-- detail name-->
+    <br />
+    <br />
+    <div class="mx-auto" style="max-width: 600px">
+      <div class="border border-2 rounded-3 p-2">
+        <div class="hstack gap-3">
+          <img
+            src="images/pic.jpg"
+            width="100"
+            height="100"
+            style="object-fit: cover"
+            class="rounded-circle"
+          />
+          <div class="vstack gap-3">
+            <span class="fw-bold">Saran Kimanuwat</span>
+            <span class="fw-secondary">
+              Hi,My name is Saran.I study at Chiangmai University.Study Computer
+              Engineering.I love programming.</span
+            >
+          </div>
+        </div>
+        <br />
+        <br />
+        <!-- skill -->
+        <div align="center">
+          <span class="fw-bold">My Skills</span>
+        </div>
+        <div>
+          <br />
+          <br />
+          <!-- programimg -->
+          <div class="hstack gap-4">
+            <img
+              src="images/programing.png"
+              width="100"
+              height="100"
+              style="object-fit: cover"
+            />
+            <div class="">
+              <div class="vstack gap-0">
+                <span class="fw-bold">Programing</span>
+                <hr />
+                <span class="fw-secondary">
+                  Hi,My name is Saran.I study at Chiangmai University.Study
+                  Computer Engineering.I love programming.</span
+                >
 
-</body>
-
+                <br />
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="hstack gap-4">
+            <img
+              src="images/UXUI.png"
+              width="100"
+              height="100"
+              style="object-fit: cover"
+            />
+            <div class="">
+              <div class="vstack gap-0">
+                <span class="fw-bold">UI/UX</span>
+                <hr />
+                <span class="fw-secondary">
+                  User interface is a very important part of website creation.I
+                  usually paticipate in this process as a fronted
+                  developer.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
